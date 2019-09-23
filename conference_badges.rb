@@ -1,6 +1,6 @@
 def conference_badges
 
-brothers = ["Tim", "Tom", "Jim"]
+attendees ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 brothers.each do |brother|
   puts "Hello, my name is Edsger #{attendees}!"
 end
