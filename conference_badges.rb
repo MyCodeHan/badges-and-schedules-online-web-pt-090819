@@ -1,11 +1,10 @@
 def conference_badges
 
 attendees ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-brothers.each do |brother|
+attendees.each do |attendees|
   puts "Hello, my name is Edsger #{attendees}!"
 end
-  print name {"Arel"}
-  print attendees {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
+  
   print badges {[
                   "Hello, my name is Edsger.",
                   "Hello, my name is Ada.",
