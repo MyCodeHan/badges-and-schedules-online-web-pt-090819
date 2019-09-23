@@ -1,6 +1,9 @@
 def conference_badges
 
-
+brothers = ["Tim", "Tom", "Jim"]
+brothers.each do |brother|
+  puts "Hello, my name is Edsger #{attendees}!"
+end
   print name {"Arel"}
   print attendees {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
   print badges {[
