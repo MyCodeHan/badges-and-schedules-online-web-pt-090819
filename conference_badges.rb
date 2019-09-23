@@ -1,10 +1,6 @@
 def conference_badges
 
- hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+
   print name {"Arel"}
   print attendees {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
   print badges {[
